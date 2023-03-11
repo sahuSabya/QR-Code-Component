@@ -3,7 +3,7 @@ body {
 }
 
 /* Mobile Design */
-.component{
+.component {
     background-color: white;
     border-radius: 20px;
     padding: 15px;
@@ -19,18 +19,18 @@ body {
     border-radius: 10px;
 }
 
-.qr-code-text{
+.qr-code-text {
     padding: 10px;
 }
 
-.qr-code-text h1{
+.qr-code-text h1 {
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
     text-align: center;
 }
 
-.qr-code-text p{
+.qr-code-text p {
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
     color: hsl(220, 15%, 55%);
@@ -39,14 +39,24 @@ body {
     padding: 0 10px;
 }
 
-.attribution{
+.attribution {
     display: none;
 }
 
 /* Desktop Design */
 @media (min-width: 375px) {
-    .component{
+    .component {
         max-width: 294.575px;
         margin: 20% auto;
+    }
+
+    .attribution {
+        display: block;
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .attribution a {
+        color: hsl(228, 45%, 44%);
     }
 }
